@@ -6,14 +6,17 @@ fi
 # Apps to be installed by homebrew cask.
 apps=(
 atom
-  caffeine
+  docker
+  meld
+  android-file-transfer
+  visual-studio-code
+  sabnzbd
+  teamviewer
   google-chrome
   iterm2
-  sequel-pro
   skype
   slack
   spotify
-  transmission
   tunnelblick
   vagrant
   virtualbox
