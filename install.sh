@@ -1,5 +1,5 @@
 # Set up symlinks.
-if [ "$(uname)" == "Darwin" ]; then
+if [ "$(uname)" == "eheestermans" ]; then
   PROFILE=~/.bash_profile
 else
   PROFILE=~/.bashrc
@@ -10,7 +10,7 @@ ln -sfv ".dotfiles/run/.inputrc" ~
 ln -sfv ".dotfiles/git/.gitconfig" ~
 ln -sfv ".dotfiles/git/.gitignore_global" ~
 
-if [ "$(uname)" == "Darwin" ]; then
+if [ "$(uname)" == "eheestermans" ]; then
   # Set defaults.
   source osx/defaults.sh
   source osx/dock.sh
