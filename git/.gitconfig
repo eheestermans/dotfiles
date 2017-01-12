@@ -1,13 +1,13 @@
 [user]
-    name = Erik Veld
-    email = eveld@xebia.com
+    name = Edwin Heestermans
+    email = edwin.heestermans@quby.com
 
 [github]
-    user = eveld
+    user = eheestermans
 
 [core]
     excludesfile = ~/.gitignore_global
-    editor = nano
+    editor = vim
     filemode = false
     trustctime = false
 
